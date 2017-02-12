@@ -1,31 +1,27 @@
-# Blue Bank
-Blue Bank é um projeto para testar seus conhecimentos de backend e frontend.
+# BankApplication
 
-Você irá criar uma aplicação web para simular a transferência bancária entre contas cadastradas.
-Esse teste consiste em avaliar seus conhecimentos como fullstack developer.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.31.
 
-Você deverá criar um banco de dadaos contendo uma tabela de conta, a tabela deverá conter os seguintes atributos: 
-- ID
-- CPF do Cliente
-- Numero da Agencia 
-- Numero da Conta
-	
-O banco de dados deve ser populado com algumas contas.
+## Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Requisitos Funcionais
+## Code scaffolding
 
-1. A tela deverá os seguintes campos: Agencia/Numero da conta origem e destino e valor
-2. Verificar a existencia das contas informadas
-3. Verificar a disponibilidade do saldo da conta de origem, o valor a ser debitado deve ser maior ou igual ao saldo disponível na conta.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
-## Requisitos Técnicos
+## Build
 
-1. Utilizar backend em Java ou NodeJS
-2. Aplicar conceitos de orientação a objetos
-3. Controlar transação nas operações de saque e deposito
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Diferenciais
+## Running unit tests
 
-1. Aplicar conceitos de SOLID
-2. Testes unitários
-3. Utilizar bibliotecas de frontend (JQuery, Bootstrap, Angular, ModuleJS, etc)
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
